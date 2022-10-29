@@ -9,3 +9,26 @@ p {
 .green {
   background-color: green;
 }
+a {
+  background-color: inherit;
+  text-decoration: none;
+  color: #fff !important;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-auto {
+  width: auto !important;
+}
+.unselectTickets {
+  background-color: #bec5c5cc;
+  padding: 15px;
+  border-radius: 5px;
+}
+.selectTickets {
+  background-color: #eef2f2cc;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 14px;
+}

@@ -8,6 +8,7 @@ import Layout from './Layout';
 import Home from './Home';
 import About from './About';
 import Movies from './Movies';
+import MovieTickets from './MovieTickets';
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 import 'jquery';
@@ -22,6 +23,7 @@ root.render(
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/movies" element={<Movies />} />
+        <Route path="/movie-tickets/:movieId" element={<MovieTickets />} />
       </Route>
     </Routes>
   </BrowserRouter>

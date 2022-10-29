@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './style.css';
-
+import { Link } from 'react-router-dom';
 export default function Movies() {
   let movieNames = [
     {
@@ -29,7 +29,7 @@ export default function Movies() {
     },
     {
       movieId: 7,
-      movieName: 'Movie 8',
+      movieName: 'Movie 7',
     },
     {
       movieId: 8,
@@ -69,7 +69,7 @@ export default function Movies() {
       <div className="row">
         {filteredMovies.map((movie) => {
           return (
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <div className="card mt-3">
                 <img
                   src="https://cybertecz.in/wp-content/uploads/2019/10/free-movie-streaming-sites.jpg"
@@ -82,7 +82,11 @@ export default function Movies() {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a className="btn btn-primary">Book Your Seat</a>
+                  <a className="btn btn-dark">
+                    <Link to={'/movie-tickets/' + movie.movieId}>
+                      Book Your Seat
+                    </Link>{' '}
+                  </a>
                 </div>
               </div>
             </div>

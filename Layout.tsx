@@ -8,7 +8,7 @@ export default function Layout() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand">
-            <Link to="/">Brand Logo</Link>
+            <Link to="/">Movie Hub</Link>
           </a>
           <button
             className="navbar-toggler"
