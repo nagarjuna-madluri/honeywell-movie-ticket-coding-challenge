@@ -5,11 +5,11 @@ This is Nagarjuna Madluri
 I developed the Movie Ticket book Coding Challenge using React 16.1v
 
 TechStack - 
-React 16.1v
-HTML5
-CSS3
-JavaScript
-JQuery
+React 16.1v, 
+HTML5, 
+CSS3, 
+JavaScript, 
+JQuery, 
 Bootstrap@4
 
 For Live Priveview, please go to the link https://react-ts-hruuk3.stackblitz.io/movies
