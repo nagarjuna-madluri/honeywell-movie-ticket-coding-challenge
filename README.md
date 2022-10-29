@@ -12,7 +12,7 @@ JavaScript,
 JQuery, 
 Bootstrap@4
 
-For Live Priveview, please go to the link https://react-ts-hruuk3.stackblitz.io/movies
+For Live Preview, please go to the link https://react-ts-hruuk3.stackblitz.io/movies
 
 Here is the Home page
 ![image](https://user-images.githubusercontent.com/46452560/198823058-17b6894c-98af-4ca7-b7b7-f2e361ff29a0.png)
